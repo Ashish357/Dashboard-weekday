@@ -1,0 +1,72 @@
+.post-date{
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  border: 2px solid gray;
+  padding: 2.5px 6px;
+  border-radius: 20px;
+}
+.card-header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* margin-block: 6px; */
+}
+.card-header img{
+  width: 50px;
+  height: 60px;
+}
+.card-header-content{
+  text-transform: capitalize;
+}
+.card-header-content h6:first-child{
+  color: gray;
+  /* font-weight: 600; */
+}
+.card-header-content h6:nth-child(2){
+  font-weight: 600;
+}
+.job-salary{
+  color: gray;
+  font-weight: 500;
+  /* margin-block: 6px; */
+}
+.about-company-tag{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.about-us-tag{
+  font-weight: 600;
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7;
+  justify-content: center;
+  margin-block: 20px;
+  height: 1000px;
+}
+.shimmer{
+  width: 350px;
+  height: 400px;
+  animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0%{
+    transform: scale(0.8);
+  }
+  50%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(0.8);
+  }
+}
+.shimmer-header{
+  width: 90%;
+  height: 90%;
+  background-color: rgb(156, 163, 175);
+}
