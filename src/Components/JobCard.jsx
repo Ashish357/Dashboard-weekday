@@ -13,7 +13,7 @@ const JobCard = ({jobData}) => {
   return (
     <Card>
       <CardActionArea>
-      <Typography variant='p' className="post-date">
+      <Typography variant='body2' style={{marginTop:'4px', fontSize:'10px'}} className="post-date">
         <HourglassBottomOutlinedIcon /> Posted 10 days ago
       </Typography>
         <CardContent className='card-header'>

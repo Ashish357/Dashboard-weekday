@@ -53,7 +53,7 @@ const JobGrid = () => {
         </div>
     )
 
-    console.log(filteredJobs.length);
+    // console.log(filteredJobs.length);
     return (
         <Grid container spacing={5} style={{marginTop:'2px'}}>
             {jobs.length != 0 ? filteredJobs.map(job => (
