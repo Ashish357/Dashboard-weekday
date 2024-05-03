@@ -15,5 +15,5 @@ Currently, two official plugins are available:
 - Based on the above result the data is stored in redux store RTK jobsSlice.
 - The saved data is then run through a fliterSlice which is used to show the jobs in the dashboard page.
 - In the search filter I have used debounce function for performance optimization.
-- I have used a shimmer UI which will be shown when data is loaded.
+- I have used a shimmer UI which will be shown when data is loading.
 - Added various aria-labels for screen-readers also for seo purpose I have added various meta tags in the index.html file.
